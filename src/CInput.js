@@ -3,9 +3,11 @@ import React from "react";
 
 class InputHooks2 extends React.Component {
     state = {
-        placeholder: "Ваше имя",
+        placeholder: "Ввод",
         value: '',
         name: '',
+
+
     };
 
     handleChange = (e) => {
@@ -14,11 +16,13 @@ class InputHooks2 extends React.Component {
 
     render() {
         return <div>
+            <label>Введите Ваше имя</label><br/>
             <input
-                placeholder={this.props.placeholder}
+                placeholder={this.state.placeholder}
                 name={this.props.name}
                 value={this.state.value}
                 onChange={this.handleChange}
+
             />
         </div>;
     }

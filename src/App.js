@@ -9,10 +9,10 @@ function App() {
         <div className="App">
             <header className="App-header">
                 <img src={logo} className="App-logo" alt="logo"/>
-                <label> Введите Ваше имя :
-                    <InputHooks name=""/>
+
+
                     <InputHooks2 name=""/>
-                </label>
+
                 <a
                     className="App-link"
                     href="https://reactjs.org"

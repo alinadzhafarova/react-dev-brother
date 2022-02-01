@@ -8,7 +8,6 @@ function CreateInput(props) {
     return <input
         value={value}
         onChange={e => setValue(e.target.value)}
-
         name={props.name}/>
 }
 
